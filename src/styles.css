@@ -1,1 +1,140 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Modal descripción */
+.modal-body {
+    font-size: 1.3rem;
+}
+body
+
+{
+
+    background-image: url("/Imagenespagina/fondo1.jpg");
+    background-size: cover;
+      
+}
+
+.section-header {
+    margin-top: 40px;
+}
+
+
+.btn-agregar {     
+    float: right; 
+}
+
+
+.table-total {
+    background-color:black;
+    color:white;
+    
+}
+
+a {
+      text-decoration: none; 
+    }
+
+/* Tamaño iconos */
+    .footer-social-icons i {
+  font-size: 1.5rem; 
+}
+
+/* Html Nosotros */
+.nnosotros {
+    margin-left: 10px;
+    margin-top: 150px;
+width: 350px;
+
+}
+
+/* Html Servicios */
+.servicio {
+    margin-left: 20px;
+}
+
+.servicio-margin-top {
+    margin-top: 10px;
+}
+
+.espacio-debajo{
+    padding-bottom: 10%;
+}
+
+/* Titulo y parrafos Servicios */
+.titulo-servicio{
+ margin-top: 150px;   
+ font-size: 36px;
+ margin-bottom: 20px;
+ text-align: center;
+
+}
+
+.descripcion-servicio{
+    font-size: 25px;
+    margin-top: 0px;
+    text-align: justify;
+  }
+
+.cantidad{
+    font-size: 20px;
+    margin-top: 80px;
+    text-align: center;     
+}
+
+.precio{
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;     
+}
+
+.descuento{
+    font-size: 20px;
+    margin-top: 0px;
+    text-align: center;     
+}
+
+/* Modal */
+.custom-modal{
+     background-color: white;
+    color: black;
+    font-size-adjust: Helvetica;
+
+}
+
+.breadcrumb-container {
+    margin-top: 120px; 
+    margin-left: 20px;
+}
+
+.breadcrumb-link{
+    color: white; 
+    text-decoration: none;
+}
+
+/* Carrusel */
+
+.carrusel-principal {
+  width: 80%;
+  max-width: 800px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 10px;
+}
+
+
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+   
+
+
+
+
+
+
+
+
+

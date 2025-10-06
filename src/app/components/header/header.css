@@ -1,0 +1,21 @@
+header{
+    background-color: white;
+    padding: 50px;
+    text-align: right;
+   
+    
+}
+nav a{
+    color: black;
+    margin: 0 10px;
+    text-decoration: none;
+    padding: 10px 20px;
+    
+}
+nav a:hover {
+    background-color: rgb(74, 211, 232);
+    color: white;
+    border-radius: 20px;
+}
+
+    
