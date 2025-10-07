@@ -7,14 +7,9 @@ img {
 }
 
 .fila-1-img{ 
-    margin-top: 85px; /* Ajustado al nuevo tamaño del header */
+    margin-top: -20px; /* Ajustado al nuevo tamaño del header */
 }
 
-.servicio {
-    transition: transform 0.3s ease;
+.espacio-debajo{
+    padding-bottom: 50px;
 }
-
-.servicio:hover {
-    transform: scale(1.05);
-}
-
