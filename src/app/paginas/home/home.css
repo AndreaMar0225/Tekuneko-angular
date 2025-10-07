@@ -1,8 +1,30 @@
+.carousel {
+  margin-top: 0; /* Quitar margen superior */
+  height: calc(100vh - 80px); /* viewport height - footer height */
+  overflow: hidden;
+}
+
 .carousel-item img {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   object-fit: cover;
 }
 
-.carousel {
-  margin-top: 500px; /* para evitar que el navbar lo tape */
+.carousel-inner {
+  height: 100%;
+}
+
+.carousel-item {
+  height: 100%;
+}
+
+/* Asegurarse que los controles del carrusel estén visibles */
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: 5%;
+}
+
+.carousel-indicators {
+  margin-bottom: 0.5rem;
 }
