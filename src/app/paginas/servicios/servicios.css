@@ -13,3 +13,17 @@ img {
 .espacio-debajo{
     padding-bottom: 50px;
 }
+.servicio {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 5px;
+  height: 200px;
+  margin-left: 10px;
+  margin-right: 0px;
+  display: block;
+}
+
+.servicio:hover {
+  transform: scale(1.08);
+  box-shadow: 0 8px 16px rgba(255, 255, 255, 0.8);
+  cursor: pointer;
+}
