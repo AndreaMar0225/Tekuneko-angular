@@ -1,0 +1,8 @@
+.carousel-item img {
+  height: 100vh;
+  object-fit: cover;
+}
+
+.carousel {
+  margin-top: 500px; /* para evitar que el navbar lo tape */
+}

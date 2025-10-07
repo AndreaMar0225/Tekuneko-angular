@@ -1,15 +1,24 @@
 header{
     background-color: white;
     padding: 50px;
-    text-align: right;
-   
+    text-align: right;  
     
 }
+
+.logo{
+    height: 60px;
+    position: absolute;
+    top: 25px;
+    left: 60px;
+   
+}
+
 nav a{
     color: black;
     margin: 0 10px;
     text-decoration: none;
     padding: 10px 20px;
+    
     
 }
 nav a:hover {

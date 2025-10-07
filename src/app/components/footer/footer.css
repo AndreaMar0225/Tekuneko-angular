@@ -1,11 +1,9 @@
-.footer {
+footer {
 
     background-color:rgb(74,211,232);
     padding: 20px;
     color: white;
+    text-align: left;
 }
 
-/* Tamaño iconos */
-    .footer-social-icons i {
-  font-size: 1.5rem; 
-}
+

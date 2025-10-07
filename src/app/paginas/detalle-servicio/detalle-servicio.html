@@ -1,1 +1,39 @@
-<p>detalle-servicio works!</p>
+<section class="services section-padding">
+  <!--Imagen-->
+  <div class="container espacio-debajo mt-5 mt-md-5 mt-lg-5">
+    <div class="row align-items-center">
+      <div class="col-md-4">
+        <img
+          class="nnosotros"
+          src={{imageUrl}}
+          width="200px"
+          height="200px"
+          alt=""
+          height="350px"
+        />
+      </div>
+
+      <div class="col-md-8 text-white text-center fs-4">
+        <h2 class="titulo-servicio mb-4 text-white">{{title}}</h2>
+        <p class="descripcion-servicio">
+          {{description}}
+        </p>
+
+        <div class="d-flex justify-content-center gap-4 mt-4">
+          <div class="flex-fill text-center">
+            <h3 class="cantidad fw-bold m-0">Cantidad</h3>
+            <div class="valor-cantidad mt-2">{{cantidadHoras}}</div>
+          </div>
+          <div class="flex-fill text-center">
+            <h3 class="precio fw-bold m-0">Precio</h3>
+            <div class="valor-precio mt-2">{{precio}}</div>
+          </div>
+          <div class="flex-fill text-center">
+            <h3 class="descuento fw-bold m-0">Descuento</h3>
+            <div class="valor-descuento mt-2">{{descuento}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
