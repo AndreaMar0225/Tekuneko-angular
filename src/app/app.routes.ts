@@ -15,7 +15,7 @@ export const routes: Routes = [
     {path:'InicioSesion', component: InicioSesion},
     {path:'GestionarServicios', component: GestionarServicios},
     {path:'CrearServicio', component: CrearServicio},
-    {path:'EditarServicio', component: EditarServicio},
+    {path:'EditarServicio/:id', component: EditarServicio},
     {path:'DetalleServicio/:id', component: DetalleServicio},    
     {path:'**',redirectTo:''},
 ];

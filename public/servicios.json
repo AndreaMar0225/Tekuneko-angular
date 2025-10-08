@@ -1,0 +1,5 @@
+[
+  { "id": 1, "nombre": "Ciberseguridad", "precio": "$1.500.000", "descuento": "0%" },
+  { "id": 2, "nombre": "Desarrollo de Software", "precio": "$4.000.000", "descuento": "15%" },
+  { "id": 3, "nombre": "Soluciones de Comercio Electrónico", "precio": "$2.800.000", "descuento": "10%" } 
+]
