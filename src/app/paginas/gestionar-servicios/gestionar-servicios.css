@@ -1,8 +1,20 @@
-div{
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
-.agregar-servicio{
-       margin-inline-end: 325px; ;
+
+.titulo-servicio{
+    margin-top: -80px;   
+    font-size: 26px;
+    margin-bottom: 50px;
+    text-align: center;
+    color: white;      
 }
 
+.tabla-servicios{
+    margin-top: -50px;   
+    margin-bottom: 10px;   
+}
+
+.boton-agregar-servicio{
+    margin-right: 325px;   
+    margin-bottom: 135px; 
+    margin-left: 80px; 
+    margin-top: -800px; 
+}
