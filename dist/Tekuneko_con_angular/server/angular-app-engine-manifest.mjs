@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/',
+  basePath: '/Tekuneko-angular',
   supportedLocales: {
   "en-US": ""
 },
